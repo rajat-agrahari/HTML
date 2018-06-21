@@ -1,0 +1,101 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(food.jpg);
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:22px;
+}
+
+li a:hover {
+    background-color: orange;
+}
+
+.loginbox
+{
+	width:520;
+	height:150;
+	background:#333;
+	color:white;
+	top:50%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	padding:20px 20px;
+}
+
+h2
+{
+	font-size:40px;
+	color:orange;
+	text-align:center;
+	position:center;
+}
+
+.loginbox p
+{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+.loginbox input
+{
+	width:100%;
+	margin-bottom:20px;
+}
+.loginbox input[type="text"], input[type="text"]
+{
+	border:none;
+	border-bottom:1px solid white;
+	outline:none;
+	height:40px;
+	width:500px;
+	color:black;
+	font-size:16px;
+}
+.loginbox a
+{
+	text-decoration:none;
+	font-size:25px;
+	padding:20px 20px;
+	line-height:100px;
+	color:orange;
+}
+.loginbox a:hover
+{
+	color:#ffc107;
+}
+
+h3
+{
+	padding:7px;
+	position:center;
+	color:orange;
+	font-size:30px;
+}
+
