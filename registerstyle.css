@@ -1,0 +1,66 @@
+body
+{
+	margin: 0;
+	padding:0;
+	background:url(pizza.jpeg);
+	background-size:cover;
+	background-position:center;
+	font-family:sans-serif;
+}
+.registerbox
+{
+	position:absolute;width:320;
+	height:450;
+	background:#000;
+	color:#fff;
+	top:50%;
+	left:50%;
+
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	padding:20px 20px;
+}
+
+h1
+{
+	margin:0;
+	padding:0 0 20px;
+	text-align:center;
+	font-size: 22px;
+}
+.registerbox p
+{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+.registerbox input
+{
+	width:100%;
+	margin-bottom:10px;
+}
+.registerbox input[type="text"], input[type="password"]
+{
+	border:none;
+	border-bottom:1px solid #fff;
+	background: transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+}
+.registerbox a
+{
+	text-decoration:none;
+	font-size:20px;
+	line-height:20px;
+	color:white;
+}
+.registerbox a:hover
+{
+	color:#ffc107;
+}
+
+
+
+
